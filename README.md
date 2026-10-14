@@ -115,3 +115,7 @@ Pode rodar os testes de duas formas:
    ```bash
 
    python -m unittest discover -s tests -p "test_*.py" -t . -v
+
+<p align="center">
+  <img src="assets/gameplay.gif" alt="Gameplay RobCo Terminal" width="600px">
+</p>
