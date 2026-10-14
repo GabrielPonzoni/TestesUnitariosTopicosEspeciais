@@ -19,27 +19,16 @@ O projeto segue uma estrutura limpa organizada em pacotes para o código-fonte e
 TestesUnitariosTopicosEspeciais/
 
 ├── .vscode/
-
 │   └── settings.json        # Configuração do Test Runner (unittest)
-
 ├── src/
-
 │   ├── __init__.py
-
 │   ├── model.py             # Classes puras (Regras de negócio de Combate e Inventário)
-
 │   ├── presenter.py         # Camada Presenter (Interligação Model <-> View)
-
 │   └── view.py              # Camada View (Interface estilo terminal retro)
-
 ├── tests/
-
 │   ├── __init__.py
-
 │   └── test_rpg.py          # Bateria de 6 Testes Unitários (Padrão AAA + Edge Cases + Mocks)
-
 ├── main.py                  # Ponto de entrada do jogo (Loop jogável no terminal)
-
 └── README.md
 
 ```
